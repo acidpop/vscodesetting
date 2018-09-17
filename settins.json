@@ -1,0 +1,44 @@
+{
+    "editor.fontFamily": "나눔고딕코딩",
+    "files.autoGuessEncoding": true,
+    "cppcheck.cppcheckPath": "C:\\Program Files\\Cppcheck\\cppcheck.exe",
+    "cppcheck.outputCommandLine": true,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.smoothScrolling" : true,
+    "editor.minimap.showSlider": "always",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.o": true,
+        "**/*.so": true,
+        "**/*.bak": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.o": true,
+        "**/*.so": true,
+        "**/*.bak": true
+    },
+    "clang.executable" : "C:\\Program Files\\LLVM\\bin\\clang.exe",
+    "editor.wrappingIndent": "indent",
+    "symbolOutline.doSort": true,
+    // Window 10 에서는 Default Shell 이 Powershell이기 때문에 cmd로 변경해야 정상적으로 실행 됨.
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "team.showWelcomeMessage": false,
+    "editor.detectIndentation" : false,
+
+    // 열려 있는 편집기 감추기
+    "explorer.openEditors.visible": 0,
+    "git.autofetch": true,
+    "gitlens.settings.mode": "advanced"
+}
